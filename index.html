@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/w3css/3/w3.css">
+<body>
+<!-- Slide Show -->
+<section>
+  <img class="mySlides" src="kanpur_centeral.jpg" style="width:100%" class="center">
+  <img class="mySlides" src="bitoor.jpg" style="width:100%"  class="center">
+  <img class="mySlides" src="jk.png" style="width:100%"  class="center">
+  <img class="mySlides" src="nana.jpg" style="width:100%" class="center">
+</section>
+<!-- city history -->
+
+  <h1 align="center">KANPUR</h1>
+  <h2 class="w3-wide" align="center">HISTORY</h2>
+  <p align="center"><i>In the 19th century, Cawnpore was an important British garrison with barracks for 7,000 soldiers. During the Indian Rebellion of 1857, 900 British men, women and children were besieged in the fortifications for 22 days by rebels under Nana Sahib Peshwa. They surrendered on the agreement that they would get safe passage to the nearby Satti Chaura Ghat whereupon they would board barges and be allowed to go by river to Allahabad.Though controversy surrounds what exactly happened at the Satti Chaura Ghat, and who fired the first shot, it is known that, soon afterwards, the departing British were shot at by the rebel sepoys and were either killed or captured. Some of the British officers later claimed that the rebels had, on purpose, placed the boats as high in the mud as possible, to cause delay. They also claimed that Nana Sahib's camp had previously arranged for the rebels to fire upon and kill all the English. Although the East India Company later accused Nana Sahib of betrayal and murder of innocent people, no evidence has ever been found to prove that Nana Sahib had pre-planned or ordered the massacre. Some historians believe that the Satti Chaura Ghat massacre was the result of confusion, and not of any plan implemented by Nana Sahib and his associates. Lieutenant Mowbray Thomson, one of the four male survivors of the massacre, believed that the rank-and-file sepoys who spoke to him did not know of the killing to come.Many were killed and the remaining 200 British women and children were brought back to shore and sent to a building called the Bibighar (the ladies' home). After some time, the commanders of the rebels decided to kill their hostages. The rebel soldiers refused to carry out orders and butchers from the nearby town were brought in to kill the hostages three days before the British entered the city on 18 July. The dismembered bodies were thrown into a deep well nearby. The British under General Neill retook the city and committed a series of retaliations against the rebel Sepoys and those civilians caught in the area, including women, children and old men. The Cawnpore Massacre, as well as similar events elsewhere, were seen by the British as justification for unrestrained vengeance. "Remember Cawnpore" became a war cry for British for the rest of the rebellion</i></p>
+  <!-- tourist places-->
+<section class="w3-row-padding w3-center w3-light-grey">
+  <article class="w3-third">
+    <p align="center">NanaRao Memorial Park</p>
+    <img src="nana.jpg" alt="NanaRao Memorial Park" style="width:100%"  class="center">
+    <p align="center">The park is of immense historical significance as the location of the massacre of around 200 British women and children, allegedly[1] on the instigation of a courtesan in Nana Sahib's court, followed by the punitive actions by British soldiers of the East India Company during the 1857 Indian rebellion.</p>
+  </article>
+  <article class="w3-third">
+    <p align="center">JK Temple</p>
+    <img src="jk.png" alt="JK Temple" style="width:100%"  class="center">
+    <p align="center"><i>JK Temple (Juggilal Kamlapat temple) is a temple in the Indian city of Kanpur.[2][3][4] It is considered to be a unique blend of ancient and modern architecture. The mandapa of the temple has been constructed with high roof for adequate ventilation of light and air. The temple was constructed by JK Trust and major maintenance expenses of the temple also comes from the trust fund. The temple is also popularly known as Radhakrishna Temple</p><</i>
+  </article>
+  <article class="w3-third">
+    <p align="center">Bithoor</p>
+	
+    <img src="bitoor.jpg" alt="Bithoor" style="width:100%" class="center"  align="center">
+
+    <p align="center">Bithoor or Bithur is a town in Kanpur District, 23.4 kilometres (14.5 mi) by road north of the centre of Kanpur city, in Uttar Pradesh, India. Bithoor is situated on the right bank of the Ganga, and is a centre of Hindu pilgrimage. According to Hindu mythology, Bithoor is the birthplace of Lord Ram's sons Luv and Kush. Bithoor is also the centre for Revolt of 1857 as Nana Sahib, a popular freedom fighter who was based there. The city is enlisted as a municipality of Kanpur metropolitan area.</p>
+  </article>
+</section>
+</section>
+ <script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) { 
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+</body>
+</html>
